@@ -58,5 +58,5 @@ sheet = """121	59	141	21	120	67	58	49	22	46	56	112	53	111	104	130
 514	218	209	185	197	137	393	555	588	569	710	537	48	309	519	138
 1567	3246	4194	151	3112	903	1575	134	150	4184	3718	4077	180	4307	4097	1705"""
 
-# print checksum(sheet)
-print evenly_divisible_checksum(sheet)
+print 'Part 1:', checksum(sheet)
+print 'Part 2:', evenly_divisible_checksum(sheet)
